@@ -24,7 +24,7 @@ function About() {
 
       <section style={{ marginTop: '40px' }}>
         <h2>GitHub Activity</h2>
-        <GitHubStats username='monisha11' />
+        <GitHubStats username='monishaachar11' />
       </section>
     </div>
   );
