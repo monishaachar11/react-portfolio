@@ -10,6 +10,7 @@ import Contact from './pages/contact';
 import NotFound from './pages/NotFound';
 import ProjectDetails from './Pages/ProjectDetails';
 
+
 function App() {
   const [theme, setTheme] = useState('light');
 
