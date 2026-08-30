@@ -3,6 +3,12 @@ import GitHubStats from '../components/GitHubStats/GitHubStats';
 import SkillCard from '../components/SkillCard/SkillCard';
 
 const SKILLS = [
+  { name: 'C', level: 'Advanced', icon: '©️' },
+  { name: 'editing', level: 'Advanced', icon: '💻' },
+  { name: 'Python', level: 'Advanced', icon: '🐍' },
+  { name: 'Presentation making', level: 'Advanced', icon: '📊' },
+  { name: 'Data Structures and Algorithms', level: 'Intermediate', icon: '🗂️' },
+  { name: 'Problem Solving', level: 'Intermediate', icon: '🧩' },
   { name: 'HTML5', level: 'Advanced', icon: '🌐' },
   { name: 'CSS3', level: 'Advanced', icon: '🎨' },
   { name: 'JavaScript', level: 'Advanced', icon: '⚡' },
