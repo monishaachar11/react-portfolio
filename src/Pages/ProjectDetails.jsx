@@ -37,7 +37,9 @@ function ProjectDetails() {
             ))}
           </div>
           <div className="project-details-actions">
-            <a className="btn btn-primary" href={project.liveUrl} target="_blank" rel="noreferrer">Live Demo</a>
+            {project.liveUrl && (
+              <a className="btn btn-primary" href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
+            )}
             <a className="btn btn-outline" href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>

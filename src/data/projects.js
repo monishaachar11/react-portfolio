@@ -1,39 +1,72 @@
 export const categories = ['all', 'web', 'design'];
 
 export const projectsData = [
-{
-id: 1,
-title: 'Weather App',
-description: 'Real-time weather for any city',
-longDesc: 'A fully responsive weather application that shows current conditions and 5-day forecasts.',
-tech: ['React', 'API'],
-category: 'web',
-featured: true,
-liveUrl: '#',
-githubUrl: '#'
-},
-{
-id: 2,
-title: 'Portfolio Site',
-description: 'This very portfolio website',
-longDesc: 'A multi-page React portfolio with routing, dark mode, and live GitHub stats.',
-tech: ['React', 'CSS'],
-category: 'web',
-featured: true,
-liveUrl: '#',
-githubUrl: '#'
-},
-{
-id: 3,
-title: 'Todo Manager',
-description: 'Kanban task board',
-longDesc: 'A full-featured task manager with columns and drag-and-drop support.',
-tech: ['JavaScript', 'HTML'],
-category: 'design',
-featured: false,
-liveUrl: '#',
-githubUrl: '#'
-}
+  {
+    id: 1,
+    title: 'Obstacle Avoiding Robot',
+    description: 'An obstacle avoiding robotics project',
+    longDesc: 'A robotics project focused on detecting and avoiding obstacles autonomously.',
+    tech: ['Arduino', 'C++'],
+    category: 'design',
+    featured: true,
+    liveUrl: null,
+    githubUrl: '#'
+  },
+  {
+    id: 2,
+    title: 'Portfolio',
+    description: 'Personal portfolio website',
+    longDesc: 'A personal portfolio website showcasing projects, skills, and experience.',
+    tech: ['React', 'CSS'],
+    category: 'web',
+    featured: true,
+    liveUrl: 'https://monishaacharc.netlify.app/',
+    githubUrl: '#'
+  },
+  {
+    id: 3,
+    title: 'Campus Reminder',
+    description: 'A reminder app for campus activities',
+    longDesc: 'A campus-focused reminder application for keeping track of important activities.',
+    tech: ['React', 'JavaScript'],
+    category: 'web',
+    featured: true,
+    liveUrl: 'https://campusreminder.netlify.app/',
+    githubUrl: '#'
+  },
+  {
+    id: 4,
+    title: 'Student Service',
+    description: 'A service platform for students',
+    longDesc: 'A student service platform designed to make common student tasks easier to manage.',
+    tech: ['React', 'JavaScript'],
+    category: 'web',
+    featured: true,
+    liveUrl: 'https://servicestudent.netlify.app/',
+    githubUrl: '#'
+  },
+  {
+    id: 5,
+    title: 'Student Tracker',
+    description: 'A student progress tracking app',
+    longDesc: 'An application for tracking student progress and important academic information.',
+    tech: ['React', 'JavaScript'],
+    category: 'web',
+    featured: true,
+    liveUrl: 'https://trackerforstudent.netlify.app/',
+    githubUrl: '#'
+  },
+  {
+    id: 6,
+    title: 'FLAMES',
+    description: 'A fun FLAMES compatibility game',
+    longDesc: 'A playful web app based on the classic FLAMES name compatibility game.',
+    tech: ['JavaScript', 'HTML', 'CSS'],
+    category: 'web',
+    featured: true,
+    liveUrl: 'https://funflames.netlify.app/',
+    githubUrl: '#'
+  }
 ];
 
 export const SKILLS = [
