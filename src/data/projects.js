@@ -10,7 +10,7 @@ export const projectsData = [
     category: 'design',
     featured: true,
     liveUrl: null,
-    githubUrl: '#'
+    githubUrl: 'https://github.com/monishaachar11?tab=repositories'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const projectsData = [
     category: 'web',
     featured: true,
     liveUrl: 'https://monishaacharc.netlify.app/',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/monishaachar11/react-portfolio'
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const projectsData = [
     category: 'web',
     featured: true,
     liveUrl: 'https://campusreminder.netlify.app/',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/monishaachar11/Campus_Reminder'
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const projectsData = [
     category: 'web',
     featured: true,
     liveUrl: 'https://servicestudent.netlify.app/',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/monishaachar11/Student_Service'
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export const projectsData = [
     category: 'web',
     featured: true,
     liveUrl: 'https://trackerforstudent.netlify.app/',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/monishaachar11/Student_Tracker'
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ export const projectsData = [
     category: 'web',
     featured: true,
     liveUrl: 'https://funflames.netlify.app/',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/monishaachar11/FLAMES'
   }
 ];
 
